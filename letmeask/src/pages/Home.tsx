@@ -40,6 +40,9 @@ export function Home(){
     if(!roomRef.exists()){
       alert('Room does not exist');
       return;
+    }else if(roomRef.val().endedAt){
+      alert('Room already ended')
+      return;
     }else{
       history.push(`/rooms/${roomCode}`);
     }
