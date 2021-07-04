@@ -6,7 +6,6 @@ import { Link, useHistory } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { FormEvent, useState  } from 'react';
 import { database } from '../service/firebase';
-import firebase from 'firebase';
 
 export function NewRoom(){
 
@@ -28,7 +27,7 @@ export function NewRoom(){
       author:user?.id
     })
 
-    history.push(`/rooms/${firebaseRoom.key}`);
+    history.push(`/admin/rooms/${firebaseRoom.key}`);
   }
 
   return(
@@ -50,7 +49,7 @@ export function NewRoom(){
                 value={newRoom}
               />
                 <Button type="submit"> Criar Sala </Button>
-                <p>Quer entrar em uma sala ja existente? <Link to="#">clique aqui</Link></p>
+                <p>Quer entrar em uma sala ja existente? <Link to="/rooms/existing">clique aqui</Link></p>
             </form>
         </div>
       </main>
