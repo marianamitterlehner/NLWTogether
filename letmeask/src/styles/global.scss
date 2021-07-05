@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
+:root{
+  --purple-100: #EDE5FB;
+  --purple-500: #7D3FE0;
+  --purple-700:#6432b3;
+  --greenyellow-500: #7DE03F;
+  --greenyellow-700:#64b332;
+  --white:#FFFFFF;
+  --gray-100:#f8f8f8;
+  --gray-200:#cacaca;
+  --gray-300:#a8a8b3;
+  --gray-500: #737380;
+  --gray-800: #29292e;
+
+}
+
 body {
-  background:#f8f8f8;
-  color: #29292e;
+  background:var(--gray-100);
+  color: var(--gray-800);
 }
 
 body, input, select, textarea{
   font: 400 16px 'Roboto', sans-serif;
 }
+

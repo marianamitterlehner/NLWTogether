@@ -1,9 +1,10 @@
 .button{
   height: 50px;
   border-radius: 8px;
-  font-weight: 500;
-  background: #835afd;
-  color: #fff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background: var(--purple-500);
+  color: var(--white);
   padding: 0 32px;
 
   display: flex;
@@ -29,14 +30,14 @@
   }
 
   &.outline{
-    background:#FFFFFF;
-    border: 1px solid #835afd;
-    color: #835afd;
+    background:var(--white);
+    border: 1px solid var(--purple-500);
+    color: var(--purple-500);
   }
 
   &.outline:hover{
-    background:#835afd;
-    border: 1px solid #835afd;
-    color: #FFFFFF;
+    background:var(--purple-500);
+    border: 1px solid var(--purple-500);
+    color: var(--white);
   }
 }
