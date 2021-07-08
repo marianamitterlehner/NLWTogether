@@ -1,21 +1,9 @@
 
 # NLWTogether
 
-
-<p align="center">
+<div align="center">
 ![eqweqweqw](https://user-images.githubusercontent.com/51057747/124850253-adcd9b00-df76-11eb-8097-79668cb27e0a.png)
-</p>
-
-
-
-
-
-<p align="center">
-<a href="#sobre">Sobre</a>   |   
-<a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>   |   
-<a href="#como-rodar">Como rodar?</a>   |   
-<a href="#modificacoes">Modificações no Projeto</a>  
-</p>
+</div>
 
 ## Sobre
 
@@ -25,12 +13,14 @@ Projeto desenvolvido durante a Next Level Week #6 da [Rocketseat](https://rocket
 ## Badge
 
 ### Desktop
-
-![wqeqwe](https://user-images.githubusercontent.com/51057747/124850255-ae663180-df76-11eb-9054-0c09a93c0570.png)
+<div align="center">
+![wqeqwe](https://user-images.githubusercontent.com/51057747/124850255-ae663180-df76-11eb-9054-0c09a93c0570.png) 
+</div>
 
 ### Mobile
+<div align="center">
 ![dsadas](https://user-images.githubusercontent.com/51057747/124850257-aefec800-df76-11eb-8890-a8e330529e1f.png)
-
+</div>
 
 ## Tecnologias utilizadas
 
