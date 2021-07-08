@@ -1,13 +1,13 @@
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { NewRoom } from './pages/NewRoom';
-import { Room } from './pages/Room';
-import { AdminRoom } from './pages/AdminRoom';
+import { Home } from './pages/authenticate/Home';
+import { NewRoom } from './pages/authenticate/NewRoom';
+import { Room } from './pages/rooms/Room';
+import { AdminRoom } from './pages/rooms/AdminRoom';
 
 import './styles/global.scss';
 
 import {AuthContextProvider} from './contexts/AuthContext';
-import { ExistingRoom } from './pages/ExistingRoom';
+import { ExistingRoom } from './pages/authenticate/ExistingRoom';
 
 function App() {
   return (

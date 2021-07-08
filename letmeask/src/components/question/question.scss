@@ -1,26 +1,48 @@
  .question{
    background: var(--gray-100);
    border-radius: 8px;
-   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
    padding: 2rem;
 
    & + .question {
      margin-top: 0.8rem;
    }
 
+   &:hover button{
+    color: var(--purple-500);
+    svg path, circle{
+      stroke: var(--purple-500);
+    }
+  }
+
   &.highlighted{
     background: var(--purple-100);
     border: 1px solid var(--purple-500);
+    font-weight: 500;
 
     footer .user-info span {
       color: var(--purple-500);
-      font-weight: 500;
+    }
+
+    &:hover button{
+      color: var(--greenyellow-500);
+      svg path, circle{
+        stroke: var(--greenyellow-500);
+      }
     }
   }
 
   &.answered{
     background: var(--gray-200);
-    color: var(--gray-800);
+    > p{
+      color: var(--gray-500);
+    }
+    &:hover button{
+      color: var(--gray-300);
+      svg path, circle{
+        stroke: var(--gray-500);
+      }
+    }
   }
 
    p{

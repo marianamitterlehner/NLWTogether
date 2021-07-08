@@ -1,11 +1,15 @@
-import illustration from '../assets/images/illustration.svg';
-import logo from '../assets/images/logo.svg';
-import '../styles/auth.scss';
-import { Button } from '../components/Button';
+import illustration from '../../assets/images/illustration.svg';
+import logo from '../../assets/images/logo.svg';
+
+import { Button } from '../../components/button/Button';
+
 import { useHistory, Link } from 'react-router-dom';
 import { useState } from 'react';
 import { FormEvent } from 'react';
-import { database } from '../service/firebase';
+
+import { database } from '../../service/firebase';
+
+import './auth.scss';
 
 export function ExistingRoom(){
 
