@@ -2,7 +2,7 @@
 # NLWTogether
 
 <div align="center">
-![eqweqweqw](https://user-images.githubusercontent.com/51057747/124850253-adcd9b00-df76-11eb-8097-79668cb27e0a.png)
+<img src="![eqweqweqw](https://user-images.githubusercontent.com/51057747/124850253-adcd9b00-df76-11eb-8097-79668cb27e0a.png)"
 </div>
 
 ## Sobre
